@@ -463,3 +463,5 @@
 2019-11-28 14:05:20,813  INFO [main] LogReport:26 - Chrome browser opens
 2019-11-28 14:05:27,635  INFO [main] LogReport:26 - Application is open
 2019-11-28 14:05:33,769  INFO [main] LogReport:26 - Bookings tab is selected
+2019-11-28 14:32:13,177  INFO [main] LogReport:26 - Chrome browser opens
+2019-11-28 14:32:17,042  INFO [main] LogReport:26 - Application is open

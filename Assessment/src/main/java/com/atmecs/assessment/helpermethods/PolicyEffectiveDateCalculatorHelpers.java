@@ -15,15 +15,15 @@ public class PolicyEffectiveDateCalculatorHelpers {
 
 	public String addingTheNoOfDays(int noOfDaysNeedsToBeAdded) {
 
-		LocalDate dateAfterSubtractingTheMonths = localDate.minusMonths(noOfDaysNeedsToBeAdded);
-		String calculatedDateInStringFormat = dateAfterSubtractingTheMonths.toString();
+		LocalDate dateAfterAddingNoOfDays = localDate.plusDays(noOfDaysNeedsToBeAdded);
+		String calculatedDateInStringFormat = dateAfterAddingNoOfDays.toString();
 		return calculatedDateInStringFormat;
 	}
 
 	public String addingTheNoOfMonths(int noOfMonthsNeedsToBeAdded) {
 
-		LocalDate dateAfterSubtractingTheMonths = localDate.minusMonths(noOfMonthsNeedsToBeAdded);
-		String calculatedDateInStringFormat = dateAfterSubtractingTheMonths.toString();
+		LocalDate dateAfterAddingTheMonths = localDate.plusMonths(noOfMonthsNeedsToBeAdded);
+		String calculatedDateInStringFormat =dateAfterAddingTheMonths.toString();
 		return calculatedDateInStringFormat;
 	}
 }

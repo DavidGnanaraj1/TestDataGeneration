@@ -68,9 +68,9 @@ public class PolicyEffectiveDateCalculator {
 		excelWritingInput[arrayInputIndex] = policyDateHelpers
 				.subTractsTheNoOfMonths(inputDetailsForDateMethod[arrayInputIndex]);
 		excelWritingInput[arrayInputIndex + 1] = policyDateHelpers
-				.subTractsTheNoOfMonths(inputDetailsForDateMethod[arrayInputIndex]);
+				.addingTheNoOfDays(inputDetailsForDateMethod[arrayInputIndex+1]);
 		excelWritingInput[arrayInputIndex + 2] = policyDateHelpers
-				.subTractsTheNoOfMonths(inputDetailsForDateMethod[arrayInputIndex]);
+				.addingTheNoOfMonths(inputDetailsForDateMethod[arrayInputIndex+2]);
 
 		excelWriter.excelFileWriter(excelWritingInput, 2, 1, 4);
 
