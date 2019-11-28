@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AssessmentSuite">
+  <test thread-count="5" name="AssessmentTest">
+    <classes>
+      <class name="com.atmecs.Assessment3archetype_archetype.assessmenttask.testscripts.PhpTravelsAutomation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

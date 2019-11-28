@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 26.626 s <<< FAILURE! - in TestSuite
+bookingAutomation(com.atmecs.Assessment3archetype_archetype.assessmenttask.testscripts.PhpTravelsAutomation)  Time elapsed: 13.012 s  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression //div[@class='content'])[1]//h4 because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='content'])[1]//h4' is not a valid XPath expression.
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINDT-046', ip: '50.50.50.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\DAVID~1.EAS\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:50511}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 66c48e6d3c79612b815fe716c7a9c316
+*** Element info: {Using=xpath, value=//div[@class='content'])[1]//h4}
+	at com.atmecs.Assessment3archetype_archetype.assessmenttask.testscripts.PhpTravelsAutomation.bookingAutomation(PhpTravelsAutomation.java:70)
+
